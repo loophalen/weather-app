@@ -5,6 +5,8 @@ class Weather extends React.Component{
         return(
             <div>
                 {this.props.temperature}
+                {this.props.humidity}
+                {this.props.description}
             </div>
         )
     }
