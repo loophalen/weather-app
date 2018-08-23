@@ -59,7 +59,6 @@ body {
   }
   
   input:-webkit-autofill {
-      /* -webkit-box-shadow: 0 0 0 30px black inset; */
       -webkit-text-fill-color: #fff;
   }
   
