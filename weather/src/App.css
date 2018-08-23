@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono');
+
+body {
+    font-family: "Open Sans", serif;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .main {
+    height: 90vh;
+    background: #fff;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .title-container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    font-family: 'Overpass Mono', monospace;
+    text-transform: lowercase
+  }
+  
+  .form-container {
+    background-color: #fff;
+    height: 90vh;
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+  
+  input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 1px black;
+    width: 30%;
+    padding-bottom: 4px;
+    color: #fff !important;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Overpass Mono', monospace;
+    text-transform: lowercase; 
+  }
+  
+  input[type="text"] { 
+      outline: none;
+  }
+  
+  input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px black inset;
+      -webkit-text-fill-color: #fff;
+  }
+  
+  button {
+    border: 0;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Overpass Mono', monospace;
+  }
+  
+  button:active {
+    outline: none;
+  }
+  
+  .weather_info {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: 'Overpass Mono', monospace;
+    text-transform: lowercase; 
+  }
+  
+  .weather_value {
+    color: #f16051;
+    border-bottom: solid 2px rgba(255,255,255,0.06);
+    padding: 20px 0 20px 0;
+    font-weight: 400;
+    font-family: 'Overpass Mono', monospace;
+  }
+
+  
